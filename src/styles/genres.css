@@ -1,0 +1,35 @@
+.all-genre{
+    margin-top: 0.25rem;
+    height: 10.6875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .875rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.genre_title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--color-gray-2);
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.genre{
+    max-width: 64rem;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1.5625rem;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.genre-type{
+    background-color: var(--color-gray-6);
+    padding: 0.50rem;
+    border-radius: .25rem;
+}
+
+.genre-type:hover{
+    background-color: var(--color-gray-2);
+    color: var(--color-gray-7)
+}

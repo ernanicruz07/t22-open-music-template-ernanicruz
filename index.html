@@ -1,32 +1,52 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Open Music</title>
-  </head>
-  <body>
-    <!-- CABEÇALHO -->
-    <header>
-      <!-- DESENVOLVA AQUI OS ELEMENTOS DO CABEÇALHO -->
-    </header>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/styles/global.css">
+  <script type="module" src="./src/scripts/index.js" defer></script>
+  <title>open Music</title>
+</head>
+<body>
+  <!-- CABEÇALHO -->
+  <header class="header">
+    <h1 class="header_title"><span>O</span>pen <span>M</span>usic</h1>
+    <button class="header_theme-btn"></button>
+  </header>
 
-    <!-- CONTEÚDO PRINCIPAL -->
-    <main>
-      <!-- SEÇÃO DE FILTRO POR GENERO -->
-      <section>
-        <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
-      </section>
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main>
+    <section class="all-genre">
+      <h2 class="genre_title">Gêneros Musicais</h2>
+      <nav class="genre">
+        <a class="genre-type">Todos</a>
+        <a class="genre-type">Pop</a>
+        <a class="genre-type">MPB</a>
+        <a class="genre-type">Forró</a>
+        <a class="genre-type">Samba</a>
+        <a class="genre-type">Baião</a>
+        <a class="genre-type">Rap</a>
+        <a class="genre-type">Hip-Hop</a>
+      </nav>
+    </section>
 
-      <!-- SEÇÃO DE FILTRO POR PREÇO -->
-      <section>
-        <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
-      </section>
+    <!-- SEÇÃO DE FILTRO POR PREÇO -->
+    <section class="filter_price">
+      <div class="filter_div">
+        <h2 class="filter_title">Definir Preço</h2>
+        <p>Até <span class="color_price">R$100,00</span></p>
+      </div>
+      <form class="filter_form">
+        <input class="filter" id="price" type="range" min="0" max="150" value="150">
+      </form>
+      <h2 class="card_title">Álbuns Encontrados</h2>
+    </section>
 
-      <!-- SEÇÃO DE ALBUNS -->
-      <section>
-        <!-- DESENVOLVA AQUI OS ELEMENTOS DA SEÇÃO -->
-      </section>
-    </main>
-  </body>
+    <!-- SEÇÃO DE ÁLBUNS -->
+    <section class="cards">
+      <ul class="list_card">
+      </ul>
+    </section>
+  </main>
+</body>
 </html>

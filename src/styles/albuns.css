@@ -1,0 +1,81 @@
+.cards{
+    display: flex;
+}
+
+.list_card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card_title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: var(--color-gray-2);
+    font-family: var(--font-family-primary);
+    padding: 2rem 0rem 2rem 0rem;
+}
+
+.card{
+    width: 19.25rem;
+    height: 28.4375rem;
+    background-color: var(--color-gray-7);
+    display: flex;
+    flex-direction: column;
+}
+
+.card_img{
+    width: 19.25rem;
+    height: 18.125rem;
+}
+
+.card_title_album{
+    width: 19.25rem;
+    height: 2.3125rem;
+    padding: .3125rem 1rem .3125rem 1rem;
+    gap: .625rem;
+    font-weight: 600;
+    font-size: 1.375rem;
+    color: var(--color-gray-2);
+}   
+
+.div_card{
+    height: 1.6875rem;
+    display: flex;
+    justify-content: space-between;
+    padding: .25rem 1rem .25rem 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.div_price{
+    width: 17.25rem;
+    height: 2.5rem;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.card_price{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-gray-2);
+    display: flex;
+    align-items: center;
+}
+
+.card-btn{
+    background-color: var(--color-brand-2);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: .25rem;
+    padding: 1.25rem .625rem 1.25rem .625rem;
+    display: flex;
+    align-items: center;
+}
+
+.card-btn:hover{
+    background-color: var(--color-brand-1);
+}

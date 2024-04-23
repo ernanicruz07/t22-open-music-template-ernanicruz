@@ -1,0 +1,43 @@
+.header{
+    height: 9rem;
+    border-bottom: .1875rem solid var(--color-brand-2);
+    display: flex;
+    align-items: center;
+    background-color: var(--color-gray-8);
+    justify-content: space-between;
+
+    position:sticky;
+    top:0;
+}
+
+.header_title{
+    height: 3rem;
+    font-family: var(--font-family-primary);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.header_title span{
+    color: var(--color-brand-2)
+}
+
+.header_theme-btn{
+    background-color: var(--color-gray-6);
+    background-image: url(../assets/icons/moon.svg);
+    width: 2.75rem;
+    height: 2.25rem;
+    border-radius: .3125rem;
+    padding: .5625rem, .875rem, .5625rem;
+    gap: .625rem;
+    background-repeat: no-repeat;
+}
+
+.header_theme-btn--sun{
+    background-image: url(../assets/icons/sun.svg);
+    width: 2.75rem;
+    height: 2.25rem;
+    border-radius: .3125rem;
+    padding: .5625rem, .875rem, .5625rem;
+    gap: .625rem;
+    background-repeat: no-repeat;
+}
